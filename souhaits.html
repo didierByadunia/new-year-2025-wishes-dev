@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonne Année 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="Images/image3.jpg" alt="Image 3" class="main-image" style="display: none;">
+        <h1 id="greeting" style="display: none;">Bonne Année !</h1>
+        <p id="message" style="display: none;">💦 Nous vous souhaitons une année pleine de bonheur et de succès.💦</p>
+        <input type="text" id="nameInput" placeholder="Entrez votre nom">
+        <button id="submitNameButton">Souhaiter</button>
+        <p id="clickAgainText" style="display: none;">Cliquer encore</p>
+        <button id="changeMessageButton" style="display: none;">Changer le vœu</button>
+        <p id="shareText" style="display: none;">Partager le vœu :</p>
+        <div id="shareButtons" style="display: none;">
+            <button id="shareWhatsApp"><img src="Images/whatsapp-icon.png" alt="WhatsApp" class="icon"></button>
+            <button id="shareTwitter"><img src="Images/twitter-icon.png" alt="Twitter" class="icon"></button>
+        </div>
+        <div id="flowerContainer"></div>
+        <div class="name-image-container" style="display: none;">
+            <img src="Images/image4.jpg" alt="Image 4" id="nameImage" class="name-image">
+            <div id="nameDisplay" class="name-display"></div>
+        </div>
+        <button class="invt" id="inviteFriendButton" style="display: none;">Inviter un(e) ami(e)</button>
+    </div>
+    <footer>
+        <h4>&copy; 2025  Bonne année 2025. <br> Made by Didier Byadunia</h4>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+
+</html>
